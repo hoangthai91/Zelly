@@ -861,6 +861,10 @@ h2.title-business-areas {
 .list-new-product {
     margin-bottom: 30px;
 }
+.slick-slide,
+.slick-slide:focus {
+    outline: none !important;
+}
 
 .slide-coke {
     margin: 40px 0;
