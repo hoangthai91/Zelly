@@ -623,10 +623,6 @@ h2.title-business-areas {
     }
 }
 
-.all-fix {
-    height: 326px!important
-}
-
 @media(max-width: 767px) {
     h2.title-business-areas {
         font-size: 21px
@@ -636,18 +632,6 @@ h2.title-business-areas {
     }
     .slider-business-areas button {
         display: none!important
-    }
-    .about {
-        padding: 50px 0!important
-    }
-    .mid-about {
-        margin: 36px 0!important
-    }
-    .mid-about {
-        height: 325px!important
-    }
-    .title-about {
-        font-size: 20px!important
     }
 }
 
@@ -676,14 +660,7 @@ h2.title-business-areas {
     }
 }
 
-@media(max-width:462px) {
-    .title-about {
-        font-size: 17px!important
-    }
-    .all-fix {
-        height: 281px!important
-    }
-}
+@media(max-width:462px) {}
 
 @media(max-width: 428px) {
     h2.title-business-areas {
@@ -901,57 +878,6 @@ h3.title-company {
 
 .all-logo-gold {
     position: relative
-}
-
-.about {
-    background: url(../IMG/background-areas.png) top center no-repeat;
-    background-size: cover;
-    padding: 140px 0
-}
-
-.pic-about {
-    text-align: center;
-    padding-top: 50px
-}
-
-.pic-about img {
-    width: 20%
-}
-
-.title-about {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px 0;
-    font-weight: 700;
-    font-size: 25px
-}
-
-.text-about {
-    padding: 0 20px;
-    font-size: 15px;
-    text-align: center
-}
-
-.all-about {
-    background: #fff;
-    border-radius: 32px;
-    transition-timing-function: ease-out;
-    transition-duration: .35s
-}
-
-.all-about:hover {
-    transition-timing-function: ease-out;
-    transition-duration: .3s;
-    transform: translateY(-10px);
-    box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3)
-}
-
-.all-fix {
-    height: 303px
-}
-
-.mid-about {
-    height: 383px
 }
 
 .list-menu-wood {
@@ -1662,10 +1588,6 @@ h2.title-business-areas {
     }
 }
 
-.all-fix {
-    height: 326px!important
-}
-
 @media(max-width: 767px) {
     h2.title-business-areas {
         font-size: 21px
@@ -1675,18 +1597,6 @@ h2.title-business-areas {
     }
     .slider-business-areas button {
         display: none!important
-    }
-    .about {
-        padding: 50px 0!important
-    }
-    .mid-about {
-        margin: 36px 0!important
-    }
-    .mid-about {
-        height: 325px!important
-    }
-    .title-about {
-        font-size: 20px!important
     }
 }
 
@@ -1715,14 +1625,7 @@ h2.title-business-areas {
     }
 }
 
-@media(max-width:462px) {
-    .title-about {
-        font-size: 17px!important
-    }
-    .all-fix {
-        height: 281px!important
-    }
-}
+@media(max-width:462px) {}
 
 @media(max-width: 428px) {
     h2.title-business-areas {
@@ -1954,57 +1857,6 @@ h3.title-company {
     position: relative
 }
 
-.about {
-    background: url(../IMG/background-areas.png) top center no-repeat;
-    background-size: cover;
-    padding: 140px 0
-}
-
-.pic-about {
-    text-align: center;
-    padding-top: 50px
-}
-
-.pic-about img {
-    width: 20%
-}
-
-.title-about {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 10px 0;
-    font-weight: 700;
-    font-size: 25px
-}
-
-.text-about {
-    padding: 0 20px;
-    font-size: 15px;
-    text-align: center
-}
-
-.all-about {
-    background: #fff;
-    border-radius: 32px;
-    transition-timing-function: ease-out;
-    transition-duration: .35s
-}
-
-.all-about:hover {
-    transition-timing-function: ease-out;
-    transition-duration: .3s;
-    transform: translateY(-10px);
-    box-shadow: 0 14px 32px 0 rgba(0, 0, 0, 0.3)
-}
-
-.all-fix {
-    height: 303px
-}
-
-.mid-about {
-    height: 383px
-}
-
 .list-menu-wood {
     list-style: none;
     display: flex;
@@ -2033,7 +1885,6 @@ h3.title-company {
 .menu-product-wood {
     width: 100%;
     margin: 0 auto;
-    margin-top: -30px;
     background: url(../IMG/background-areas.png) top center no-repeat;
     background-size: cover
 }
@@ -2102,4 +1953,61 @@ article.list-pro>ul>li {
     .text-company aside {
         padding-left: 0px;
     }
+}
+
+.about {
+    background: url('../IMG/background-about.jpg') top center no-repeat;
+    background-size: cover;
+    padding: 72px 0 72px 0;
+}
+
+.about .bg-about {
+    background: url(../IMG/bg-in.jpg) top center no-repeat;
+    background-size: cover;
+    padding: 30px;
+    border-radius: 38px;
+}
+
+.about .bg-about .title-about {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about .bg-about .group-about p>span,
+.about .bg-about .group-about p>aside {
+    display: inline-block;
+}
+
+.about .bg-about .group-about p>span:first-of-type {
+    width: 200px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.about .bg-about .group-about p {
+    margin-bottom: 0.5rem;
+}
+
+.about .bg-about .group-about p>span>img {
+    width: 48%;
+}
+
+.about .bg-about .group-about p>span:last-of-type {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.about .group-about {
+    padding: 10px 0;
+}
+
+.about .text-about {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0px;
 }
