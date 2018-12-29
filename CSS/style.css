@@ -1924,6 +1924,9 @@ article.list-pro>ul>li {
     .about .bg-about .group-about p>span:first-of-type {
         width: 178px
     }
+    .comment-vision br {
+        display: none;
+    }
 }
 
 @media (max-width:991px) {
